@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image-section">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="487" viewBox="0 0 1280 487" fill="none">
+                <path d="M-24 0L1280 351.443V487H-24V0Z" fill="#5BF7DB" />
+            </svg>
+        </div>
+
+        <!--  main Screen -->
+        <div class="main-section">
+            <div>
+                <p class="welcome">Welcome back! 👋</p>
+                <p class="sign-up">Sign up to your account</p>
+            </div>
+
+            <div class="form">
+                <div class="input-body">
+                    <p class="input-header">Your name</p>
+                    <div><input type="text" id="name"></div>
+                </div>
+    
+                <div class="input-body">
+                    <p class="input-header">Your email</p>
+                    <div><input type="email" id="email"></div>
+                </div>
+    
+                <div class="input-body">
+                    <p class="input-header">Password</p>
+                    <div><input type="password" id="password"></div>
+                </div>
+    
+                <div class="input-body">
+                    <p class="input-header">Confirm Password</p>
+                    <div><input type="password" id="confirmation-password"></div>
+                </div>    
+            </div>
+            
+            <button id="submit">CONTINUE</button>
+
+            <div class="message" id="message"></div>
+        </div>
+
+        <div class="account" id="new-account">
+            <div class="no-account">Don't have an account?&nbsp;</div>
+            <div class="sign">Sign up</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
